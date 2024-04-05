@@ -31,3 +31,17 @@ body {
     text-wrap: balance;
   }
 }
+
+.button {
+  border-radius: 9999px;
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+  --tw-gradient-from: hsl(192, 70%, 51%);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, hsla(192, 70%, 51%, 0));
+  --tw-gradient-to: hsl(136, 65%, 51%);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
